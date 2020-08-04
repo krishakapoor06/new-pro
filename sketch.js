@@ -14,7 +14,7 @@ car.velocityX = speed;
 }
 
 function draw() {
-  background(black); 
+  background("black"); 
   
 if(wall.x - car.x < (car.width + wall.width)/2) {
   car.velocityX = 0;
